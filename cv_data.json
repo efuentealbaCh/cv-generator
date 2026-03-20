@@ -1,0 +1,133 @@
+{
+  "personal_info": {
+    "name": "Eliacer Antonio Fuentealba Chaura",
+    "email": "efuentealba038@gmail.com",
+    "phone": "+569 21653786",
+    "location": "Padre Las Casas, Temuco, Chile",
+    "linkedin": "https://www.linkedin.com/in/eliacer-fuentealba-5b3003229/",
+    "github": "efuentealbaCh"
+  },
+  "summary": "Ingeniero Civil en Informática con más de 4 años de experiencia en desarrollo Backend, especializado en la creación de APIs y microservicios usando Node.js, TypeScript y arquitecturas modernas como BFF. Hábil en el trabajo con frameworks PHP como Laravel y Lumen, así como en el mantenimiento de sistemas legacy. Con experiencia en entornos multi-stack (React, Docker, PostgreSQL, MongoDB, SQL Server) y uso de metodologías ágiles (Scrum, Kanban). Orientado a la entrega de código limpio, escalable y a la mejora continua de los sistemas en los que participa.",
+  "experience": [
+    {
+      "title": "Analista/Desarrollador",
+      "company": "Universidad Católica de Temuco",
+      "date": "Marzo 2024 - Actualidad",
+      "location": "Temuco (Presencial), Chile",
+      "responsibilities": [
+        "Liderazgo en el proceso de levantamiento de requerimientos técnicos y control de calidad en el ciclo de vida del software.",
+        "Desarrollo de nuevos sistemas integrados al ERP institucional utilizando Laravel 10.",
+        "Mantenimiento de sistemas legacy desarrollados en PHP 7.4 puro y el framework Ext JS 6.",
+        "Construcción de sistemas independientes con arquitectura moderna utilizando Lumen para la creación de APIs y React en el frontend.",
+        "Gestión de bases de datos utilizando SQL Server y uso de contenedores Docker en los entornos."
+      ],
+      "technologies": [
+        "Laravel 10",
+        "Lumen",
+        "React",
+        "PHP 7.4",
+        "Ext JS 6",
+        "Docker",
+        "SQL Server"
+      ]
+    },
+    {
+      "title": "Desarrollador BackEnd (Freelance)",
+      "company": "InnBoard",
+      "date": "Octubre 2024 - Mayo 2025",
+      "location": "Temuco(Remoto), Chile",
+      "responsibilities": [
+        "Desarrollo y mantenimiento de nuevas funcionalidades para sistemas SaaS educativos.",
+        "Construcción del backend para la versión 2.0 del sistema de vinculación con el medio.",
+        "Creación de APIs bajo una arquitectura BFF (Backend For Frontend) para uso en microservicios.",
+        "Desarrollo backend netamente estructurado utilizando Node.js y TypeScript para asegurar código más sólido.",
+        "Diseño y modelado continuo en la base de datos MongoDB.",
+        "Manejo de versiones mediante GitHub y uso de contenedores Docker."
+      ],
+      "technologies": ["Node.js", "TypeScript", "Docker", "GitHub","MongoDB"]
+    },
+    {
+      "title": "Programador FullStack",
+      "company": "VINCULAMOS Latam",
+      "date": "Junio 2023 - Marzo 2024",
+      "location": "Temuco(Remoto), Chile",
+      "responsibilities": [
+        "Mantenimiento de servicios legacy en Laravel 9 y migración progresiva hacia Laravel 10.",
+        "Implementación de arquitectura orientada a microservicios mediante Docker desplegados en AWS, reemplazando el uso de servidores VPS tradicionales.",
+        "Desarrollo y optimización de funcionalidades transversales (multi-cliente) utilizando Node.js.",
+        "Diseño y modelado continuo en la base de datos PostgreSQL."
+      ],
+      "technologies": ["Laravel 9", "Laravel 10", "Node.js", "Docker", "AWS", "PostgreSQL", "GitHub"]
+    },
+    {
+      "title": "Desarrollador Back-end",
+      "company": "VINCULAMOS Latam",
+      "date": "Noviembre 2022 - Junio 2023",
+      "location": "Temuco(Remoto), Chile",
+      "responsibilities": [
+        "Diseño e implementación de bases de datos para el proyecto Sisrel-Camanchaca.",
+        "Desarrollo de características funcionales para el sistema SaaS del cliente (MVC: Front y Back).",
+        "Seguimiento y control de avances del proyecto mediante metodologías ágiles."
+      ],
+      "technologies": ["Laravel 9", "PostgreSQL", "GitHub", "VPS (Despliegue manual)"]
+    },
+    {
+      "title": "Tutor E-Learning (CINAP)",
+      "company": "Universidad Católica de Temuco",
+      "date": "Enero 2020 - Enero 2024",
+      "location": "Temuco (Híbrido), Chile",
+      "responsibilities": [
+        "Atención de estudiantes y docentes en salas virtuales para resolver dudas sobre el uso de plataformas digitales de la institución.",
+        "Apoyo logístico en el ámbito académico: envío de alertas a estudiantes y programación de horarios para diversas evaluaciones.",
+        "Minería y procesamiento de datos relacionado a la participación de estudiantes y profesores en las evaluaciones."
+      ],
+      "technologies": [
+        "Python",
+        "Microsoft Excel",
+        "Microsoft Office",
+        "Habilidades de Comunicación"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Ingeniería Civil en Informática con mención en Tecnologías de Información",
+      "institution": "Universidad Católica de Temuco",
+      "date": "Marzo 2019 - Abril 2024"
+    }
+  ],
+  "certifications": [
+    
+    {
+      "name": "Aplicación Norma ISO 9001:2015",
+      "institution": "Universidad Católica de Temuco",
+      "date": "Julio 2024"
+    },
+    {
+      "name": "PWA - Aplicaciones Web Progresivas: De cero a experto",
+      "institution": "Udemy",
+      "date": "Septiembre 2023"
+    },
+    {
+      "name": "Universidad Desarrollo Web - FrontEnd Web Developer!",
+      "institution": "Udemy",
+      "date": "Diciembre 2021"
+    },
+    {
+      "name": "Curso Tutor E-learning",
+      "institution": "Universidad Católica de Temuco",
+      "date": "Agosto 2020 - Noviembre 2020"
+    },
+    {
+      "name": "Curso de ayudante nivel básico",
+      "institution": "Universidad Católica de Temuco",
+      "date": "Abril 2020 - Junio 2020"
+    }
+  ],
+  "skills": {
+    "backend": "Node.js, NestJS, PHP (Laravel, Slim), Python (Flask)",
+    "frontend": "HTML, CSS (Bootstrap, Tailwind), JavaScript (React, NextJS, Vue)",
+    "databases": "MongoDB, MySQL, PostgreSQL, SQLite, SQLServer",
+    "tools": "Git, Linux (Ubuntu, Debian), AWS"
+  }
+}
