@@ -19,13 +19,15 @@
         "Desarrollo de nuevos sistemas integrados al ERP institucional utilizando Laravel 10.",
         "Mantenimiento de sistemas legacy desarrollados en PHP 7.4 puro y el framework Ext JS 6.",
         "Construcción de sistemas independientes con arquitectura moderna utilizando Lumen para la creación de APIs y React en el frontend.",
-        "Gestión de bases de datos utilizando SQL Server y uso de contenedores Docker en los entornos."
+        "Gestión de bases de datos utilizando SQL Server y uso de contenedores Docker en los entornos.",
+        "Implementación de pruebas automatizadas (unitarias y de integración) mediante PHPUnit, asegurando la robustez y calidad en clases y componentes clave."
       ],
       "technologies": [
         "Laravel 10",
         "Lumen",
         "React",
-        "PHP 7.4",
+        "PHP 7.4^",
+        "PHPUnit",
         "Ext JS 6",
         "Docker",
         "SQL Server"
@@ -42,9 +44,17 @@
         "Creación de APIs bajo una arquitectura BFF (Backend For Frontend) para uso en microservicios.",
         "Desarrollo backend netamente estructurado utilizando Node.js y TypeScript para asegurar código más sólido.",
         "Diseño y modelado continuo en la base de datos MongoDB.",
-        "Manejo de versiones mediante GitHub y uso de contenedores Docker."
+        "Manejo de versiones mediante GitHub y uso de contenedores Docker.",
+        "Desarrollo e implementación de pruebas unitarias exhaustivas utilizando Jest, garantizando la estabilidad de los servicios y la integridad de la lógica de negocio."
       ],
-      "technologies": ["Node.js", "TypeScript", "Docker", "GitHub","MongoDB"]
+      "technologies": [
+        "Node.js",
+        "TypeScript",
+        "Jest",
+        "Docker",
+        "GitHub",
+        "MongoDB"
+      ]
     },
     {
       "title": "Programador FullStack",
@@ -57,7 +67,15 @@
         "Desarrollo y optimización de funcionalidades transversales (multi-cliente) utilizando Node.js.",
         "Diseño y modelado continuo en la base de datos PostgreSQL."
       ],
-      "technologies": ["Laravel 9", "Laravel 10", "Node.js", "Docker", "AWS", "PostgreSQL", "GitHub"]
+      "technologies": [
+        "Laravel 9",
+        "Laravel 10",
+        "Node.js",
+        "Docker",
+        "AWS",
+        "PostgreSQL",
+        "GitHub"
+      ]
     },
     {
       "title": "Desarrollador Back-end",
@@ -69,7 +87,12 @@
         "Desarrollo de características funcionales para el sistema SaaS del cliente (MVC: Front y Back).",
         "Seguimiento y control de avances del proyecto mediante metodologías ágiles."
       ],
-      "technologies": ["Laravel 9", "PostgreSQL", "GitHub", "VPS (Despliegue manual)"]
+      "technologies": [
+        "Laravel 9",
+        "PostgreSQL",
+        "GitHub",
+        "VPS (Despliegue manual)"
+      ]
     },
     {
       "title": "Tutor E-Learning (CINAP)",
@@ -97,7 +120,6 @@
     }
   ],
   "certifications": [
-    
     {
       "name": "Aplicación Norma ISO 9001:2015",
       "institution": "Universidad Católica de Temuco",
