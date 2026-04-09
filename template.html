@@ -19,7 +19,7 @@
     <h1>{{ personal_info.name }}</h1>
     <div class="contact-info">
         {{ personal_info.email }} | {{ personal_info.phone }} | {{ personal_info.location }}<br>
-        LinkedIn: {{ personal_info.linkedin }} | GitHub: {{ personal_info.github }}
+        <a href="{{ personal_info.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a> | GitHub: <a href="https://github.com/{{ personal_info.github }}" target="_blank" rel="noopener noreferrer">github.com/{{ personal_info.github }}</a> | <a href="{{ personal_info.portfolio }}" target="_blank" rel="noopener noreferrer">Portafolio</a>
     </div>
 
     <h2>Resumen Profesional</h2>

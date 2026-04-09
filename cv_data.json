@@ -5,7 +5,8 @@
     "phone": "+569 21653786",
     "location": "Padre Las Casas, Temuco, Chile",
     "linkedin": "https://www.linkedin.com/in/eliacer-fuentealba-5b3003229/",
-    "github": "efuentealbaCh"
+    "github": "efuentealbaCh",
+    "portfolio": "https://portafolio-efuentealba.netlify.app/es/"
   },
   "summary": "Ingeniero Civil en Informática con más de 4 años de experiencia en desarrollo Backend, especializado en la creación de APIs y microservicios usando Node.js, TypeScript y arquitecturas modernas como BFF. Hábil en el trabajo con frameworks PHP como Laravel y Lumen, así como en el mantenimiento de sistemas legacy. Con experiencia en entornos multi-stack (React, Docker, PostgreSQL, MongoDB, SQL Server) y uso de metodologías ágiles (Scrum, Kanban). Orientado a la entrega de código limpio, escalable y a la mejora continua de los sistemas en los que participa.",
   "experience": [
@@ -26,7 +27,9 @@
         "Laravel 10",
         "Lumen",
         "React",
-        "PHP 7.4^",
+        "PHP 7.4^|8.1^",
+        "Java",
+        "Spring Boot",
         "PHPUnit",
         "Ext JS 6",
         "Docker",
