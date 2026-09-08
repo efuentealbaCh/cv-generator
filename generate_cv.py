@@ -2,24 +2,31 @@ import json
 from jinja2 import Environment, FileSystemLoader
 
 def main():
-    # 1. Cargar los datos desde el archivo JSON
-    with open('cv_data.json', 'r', encoding='utf-8') as f:
-        cv_data = json.load(f)
-
-    # 2. Configurar Jinja2 para buscar plantillas en el directorio actual
+    # 1. Configurar Jinja2 para buscar plantillas en el directorio actual
     env = Environment(loader=FileSystemLoader('.'))
     template = env.get_template('template.html')
 
-    # 3. Generar el HTML final inyectando el JSON
-    html_output = template.render(cv_data)
+    languages = [
+        {'file': 'cv_data_es.json', 'output': 'CV_Generado_ES.html'},
+        {'file': 'cv_data_en.json', 'output': 'CV_Generado_EN.html'}
+    ]
 
-    # 4. Guardar el resultado en un nuevo archivo
-    output_filename = 'CV_Generado.html'
-    with open(output_filename, 'w', encoding='utf-8') as f:
-        f.write(html_output)
+    for lang in languages:
+        # 2. Cargar los datos desde el archivo JSON
+        with open(lang['file'], 'r', encoding='utf-8') as f:
+            cv_data = json.load(f)
 
-    print(f"¡Éxito! El currículum se ha generado en '{output_filename}'.")
-    print("Ábrelo en tu navegador y usa la opción 'Imprimir -> Guardar como PDF'.")
+        # 3. Generar el HTML final inyectando el JSON
+        html_output = template.render(cv_data)
+
+        # 4. Guardar el resultado en un nuevo archivo
+        output_filename = lang['output']
+        with open(output_filename, 'w', encoding='utf-8') as f:
+            f.write(html_output)
+
+        print(f"¡Éxito! El currículum se ha generado en '{output_filename}'.")
+
+    print("Ábrelos en tu navegador y usa la opción 'Imprimir -> Guardar como PDF'.")
 
 if __name__ == "__main__":
     main()

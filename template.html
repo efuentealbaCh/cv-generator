@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="{{ labels.lang }}">
 <head>
     <meta charset="UTF-8">
     <style>
@@ -22,10 +22,10 @@
         <a href="{{ personal_info.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a> | GitHub: <a href="https://github.com/{{ personal_info.github }}" target="_blank" rel="noopener noreferrer">github.com/{{ personal_info.github }}</a> | <a href="{{ personal_info.portfolio }}" target="_blank" rel="noopener noreferrer">Portafolio</a>
     </div>
 
-    <h2>Resumen Profesional</h2>
+    <h2>{{ labels.summary }}</h2>
     <p class="summary">{{ summary }}</p>
 
-    <h2>Experiencia Profesional</h2>
+    <h2>{{ labels.experience }}</h2>
     {% for job in experience %}
     <div class="section-item">
         <div class="job-title">{{ job.title }}</div>
@@ -37,13 +37,13 @@
         </ul>
         {% if job.technologies %}
         <div style="font-size: 12px; margin-top: 5px; color: #444; padding-left: 20px;">
-           <strong>Stack Tecnológico:</strong> {{ job.technologies | join(', ') }}
+           <strong>{{ labels.tech_stack }}:</strong> {{ job.technologies | join(', ') }}
         </div>
         {% endif %}
     </div>
     {% endfor %}
 
-    <h2>Educación</h2>
+    <h2>{{ labels.education }}</h2>
     {% for edu in education %}
     <div class="section-item">
         <div class="job-title">{{ edu.degree }}</div>
@@ -51,7 +51,7 @@
     </div>
     {% endfor %}
 
-    <h2>Certificaciones y Cursos</h2>
+    <h2>{{ labels.certifications }}</h2>
     {% for cert in certifications %}
     <div class="section-item">
         <div class="job-title">{{ cert.name }}</div>
@@ -59,12 +59,12 @@
     </div>
     {% endfor %}
 
-    <h2>Habilidades Técnicas</h2>
+    <h2>{{ labels.skills }}</h2>
     <div class="skills-list">
-        <strong>Backend:</strong> {{ skills.backend }}<br>
-        <strong>Frontend:</strong> {{ skills.frontend }}<br>
-        <strong>Bases de Datos:</strong> {{ skills.databases }}<br>
-        <strong>Herramientas / Cloud:</strong> {{ skills.tools }}
+        <strong>{{ labels.skills_backend | default('Backend') }}:</strong> {{ skills.backend }}<br>
+        <strong>{{ labels.skills_frontend | default('Frontend') }}:</strong> {{ skills.frontend }}<br>
+        <strong>{{ labels.skills_db }}:</strong> {{ skills.databases }}<br>
+        <strong>{{ labels.skills_tools }}:</strong> {{ skills.tools }}
     </div>
 
 </body>

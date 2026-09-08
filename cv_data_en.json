@@ -1,0 +1,175 @@
+{
+  "labels": {
+    "lang": "en",
+    "summary": "Professional Summary",
+    "experience": "Professional Experience",
+    "tech_stack": "Tech Stack",
+    "education": "Education",
+    "certifications": "Certifications and Courses",
+    "skills": "Technical Skills",
+    "skills_db": "Databases",
+    "skills_tools": "Tools / Cloud & AI"
+  },
+  "personal_info": {
+    "name": "Eliacer Antonio Fuentealba Chaura",
+    "email": "efuentealba038@gmail.com",
+    "phone": "+569 21653786",
+    "location": "Padre Las Casas, Temuco, Chile",
+    "linkedin": "https://www.linkedin.com/in/eliacer-fuentealba-5b3003229/",
+    "github": "efuentealbaCh",
+    "portfolio": "https://portafolio-efuentealba.netlify.app/es/"
+  },
+  "summary": "Software Engineer with over 4 years of experience in Backend development, specialized in creating APIs and microservices using Node.js, TypeScript, and modern architectures such as BFF. I integrate Artificial Intelligence tools (Claude Code, Gemini) into the development lifecycle to optimize code refactoring, accelerate the creation of automated tests, and improve team efficiency. Skilled in working with PHP frameworks like Laravel and Lumen, as well as maintaining legacy systems. Experienced in multi-stack environments (React, Docker, PostgreSQL, MongoDB, SQL Server) and Agile methodologies (Scrum, Kanban). Oriented towards delivering clean, scalable code and continuous improvement of the systems I participate in.",
+  "experience": [
+    {
+      "title": "Systems Analyst / Developer",
+      "company": "Universidad Católica de Temuco",
+      "date": "March 2024 - Present",
+      "location": "Temuco (On-site), Chile",
+      "responsibilities": [
+        "Led the technical requirement gathering process and quality control in the software lifecycle.",
+        "Developed new systems integrated into the institutional ERP using Laravel 10.",
+        "Maintained legacy systems built with pure PHP 7.4 and the Ext JS 6 framework.",
+        "Built independent systems with modern architecture using Lumen for APIs and React for the frontend.",
+        "Managed databases using SQL Server and Docker containers across environments.",
+        "Implemented automated tests (unit and integration) using PHPUnit, supported by generative AI tools (Claude Code, Gemini) to maximize code coverage and ensure robustness in key classes and components.",
+        "Assisted in the development of complex modules and migration of legacy systems to modern architectures, applying responsible vibe coding with AI support to accelerate technical decision-making and reduce risks."
+      ],
+      "technologies": [
+        "Laravel 10",
+        "Lumen",
+        "React",
+        "PHP 7.4^|8.1^",
+        "Java",
+        "Spring Boot",
+        "PHPUnit",
+        "Ext JS 6",
+        "Docker",
+        "SQL Server"
+      ]
+    },
+    {
+      "title": "Backend Developer (Freelance)",
+      "company": "InnBoard",
+      "date": "October 2024 - May 2025",
+      "location": "Temuco (Remote), Chile",
+      "responsibilities": [
+        "Developed and maintained new features for educational SaaS systems.",
+        "Built the backend for the 2.0 version of the community engagement system.",
+        "Created APIs under a BFF (Backend For Frontend) architecture for microservices.",
+        "Developed strictly structured backend code using Node.js and TypeScript to ensure solid software.",
+        "Continuously designed and modeled the MongoDB database.",
+        "Managed versions using GitHub and handled Docker container deployments.",
+        "Developed and implemented exhaustive unit tests using Jest, optimizing development time through AI assistance (Claude Code, Gemini) for edge case generation and early regression detection."
+      ],
+      "technologies": [
+        "Node.js",
+        "TypeScript",
+        "Jest",
+        "Docker",
+        "GitHub",
+        "MongoDB"
+      ]
+    },
+    {
+      "title": "FullStack Developer",
+      "company": "VINCULAMOS Latam",
+      "date": "June 2023 - March 2024",
+      "location": "Temuco (Remote), Chile",
+      "responsibilities": [
+        "Maintained legacy services in Laravel 9 and progressively migrated them to Laravel 10.",
+        "Implemented microservices-oriented architecture using Docker deployed on AWS, replacing traditional VPS servers.",
+        "Developed and optimized transversal features (multi-tenant) using Node.js.",
+        "Continuously designed and modeled the PostgreSQL database."
+      ],
+      "technologies": [
+        "Laravel 9",
+        "Laravel 10",
+        "Node.js",
+        "Docker",
+        "AWS",
+        "PostgreSQL",
+        "GitHub"
+      ]
+    },
+    {
+      "title": "Back-end Developer",
+      "company": "VINCULAMOS Latam",
+      "date": "November 2022 - June 2023",
+      "location": "Temuco (Remote), Chile",
+      "responsibilities": [
+        "Designed and implemented databases for the Sisrel-Camanchaca project.",
+        "Developed functional features for the client's SaaS system (MVC: Front and Back).",
+        "Tracked and controlled project progress using Agile methodologies."
+      ],
+      "technologies": [
+        "Laravel 9",
+        "PostgreSQL",
+        "GitHub",
+        "VPS (Manual deployment)"
+      ]
+    },
+    {
+      "title": "E-Learning Tutor (CINAP)",
+      "company": "Universidad Católica de Temuco",
+      "date": "January 2020 - January 2024",
+      "location": "Temuco (Hybrid), Chile",
+      "responsibilities": [
+        "Assisted students and teachers in virtual rooms to resolve questions regarding the institution's digital platforms.",
+        "Provided logistical support in academics: sent alerts to students and scheduled various evaluations.",
+        "Performed data mining and processing related to student and teacher participation in evaluations."
+      ],
+      "technologies": [
+        "Python",
+        "Microsoft Excel",
+        "Microsoft Office",
+        "Communication Skills"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.S. in Computer Science Engineering with a minor in Information Technologies",
+      "institution": "Universidad Católica de Temuco",
+      "date": "March 2019 - April 2024"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "TypeScript: Your Complete Guide and Handbook.",
+      "institution": "Udemy",
+      "date": "April 2026"
+    },
+    {
+      "name": "ISO 9001:2015 Standard Application",
+      "institution": "Universidad Católica de Temuco",
+      "date": "July 2024"
+    },
+    {
+      "name": "PWA - Progressive Web Apps: From Zero to Expert",
+      "institution": "Udemy",
+      "date": "September 2023"
+    },
+    {
+      "name": "Web Development University - FrontEnd Web Developer!",
+      "institution": "Udemy",
+      "date": "December 2021"
+    },
+    {
+      "name": "E-learning Tutor Course",
+      "institution": "Universidad Católica de Temuco",
+      "date": "August 2020 - November 2020"
+    },
+    {
+      "name": "Basic Level Teaching Assistant Course",
+      "institution": "Universidad Católica de Temuco",
+      "date": "April 2020 - June 2020"
+    }
+  ],
+  "skills": {
+    "backend": "Node.js, NestJS, PHP (Laravel, Slim), Python (Flask)",
+    "frontend": "HTML, CSS (Bootstrap, Tailwind), JavaScript (React, NextJS, Vue)",
+    "databases": "MongoDB, MySQL, PostgreSQL, SQLite, SQLServer",
+    "tools": "Git, Linux (Ubuntu, Debian), AWS, Claude Code, Gemini (Prompt Engineering applied to code)"
+  }
+}
